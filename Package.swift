@@ -29,7 +29,6 @@ let package = Package(
                 "EquitiMasterLib",
                 .product(name: "LinkSDK", package: "link-sdk-ios-distribution")
             ],
-            path: "Sources/EquitiMasterLibWrapper"
         )
     ]
 )
