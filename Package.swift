@@ -11,12 +11,12 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "EquitiMasterLib",
+            name: "equitimasterlib",
             targets: ["EquitiMasterLib"]),
         
         .library(
             name: "LeanSDK",
-            targets: ["LeanSDKWrapper"])
+            targets: ["LeanSDK"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -33,6 +33,6 @@ let package = Package(
             name: "LeanSDK", 
             url: "https://cdn.leantech.me/link/sdk/ios/build.15/LeanSDK.xcframework-build.15.zip", 
             checksum: "e1c34b01bf5d5a9210654ea849f15607c451e585b78ce3fc21fbe8712f3f3d92"
-        ),
+        )
     ]
 )
