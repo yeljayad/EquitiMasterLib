@@ -34,9 +34,5 @@ let package = Package(
             url: "https://cdn.leantech.me/link/sdk/ios/build.15/LeanSDK.xcframework-build.15.zip", 
             checksum: "e1c34b01bf5d5a9210654ea849f15607c451e585b78ce3fc21fbe8712f3f3d92"
         ),
-        .target(
-            name: "LeanSDKWrapper",
-            dependencies: ["LeanSDK"]
-        )
     ]
 )
