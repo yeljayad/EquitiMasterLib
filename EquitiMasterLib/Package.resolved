@@ -1,0 +1,15 @@
+{
+  "originHash" : "24030e77f81cd039262065bf16116c3c6a5810e909a0a1511290d7b25d71c0ad",
+  "pins" : [
+    {
+      "identity" : "link-sdk-ios-distribution",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/leantechnologies/link-sdk-ios-distribution",
+      "state" : {
+        "revision" : "8463ff0452e4dcbb611c9e95d282df978946d313",
+        "version" : "3.0.9"
+      }
+    }
+  ],
+  "version" : 3
+}
